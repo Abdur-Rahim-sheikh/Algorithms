@@ -1,0 +1,14 @@
+
+# define pii pair<long long,long long>
+//extented euclid function
+pii extnuc(ll a,ll b){
+	if(b==0) return pii(1,0);
+	
+	pii d =extnuc(b,a%b);
+	return pii(d.second, (d.first - d.second*(a/b)) );
+}
+
+ll mod(ll n){
+	pii d = extenuc(n,m);
+	return ((d.first%m)+m)%m;
+}
