@@ -18,7 +18,7 @@ And each columns corresponds to to a vertex/node so for every column/node there 
 4) <b>No two nodes j and k occupy the same position in the path: </b> Now we make sure that each row occupied by<br>
   no more than one node.<br>
 
-<b>Step 3&4nfirms that every position of the path has to be occupied by exactly one node.</b><br>
+<b>Step 3 and 4 confirms that every position of the path has to be occupied by exactly one node.</b><br>
 
 5) <b>Non-adjacent nodes i and j cannot be adjacent in the path:</b> Finally as at the beginning we assumed that<br>
   every node is connected with each other. so for those edge i to j which are not connected in the graph
