@@ -1,5 +1,5 @@
-Given a graph G, we shall construct a CNF F(G) such that F(G) is satisfiable if G has a Hamiltonian path.
-F(G) has n^2 boolean variables x[i, j] , 1 ≤ i, j ≤ n. Here x[i, j] the ith position in the Hamiltonian path is occupied by node j.
+## Given a graph G, we shall construct a CNF F(G) such that F(G) is satisfiable if G has a Hamiltonian path.
+## F(G) has n^2 boolean variables x[i, j] , 1 ≤ i, j ≤ n. Here x[i, j] the ith position in the Hamiltonian path is occupied by node j.
 
 Clauses of our CNF F(G) are as follows:
 <b>Assumptions :</b> at first we assume that all node are connected to each other this simplyfies the complexity<br>
@@ -28,4 +28,4 @@ And each columns corresponds to to a vertex/node so for every column/node there 
   
 So is complete To SAT convertion.
 
-[rahul-bhati solution](https://discuss.codechef.com/t/how-to-solve-hamiltonian-path-using-sat-solver-for-undirected-graph/13261/2)
+(rahul-bhati solution)[https://discuss.codechef.com/t/how-to-solve-hamiltonian-path-using-sat-solver-for-undirected-graph/13261/2]
