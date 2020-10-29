@@ -1,0 +1,9 @@
+Given a graph G, we shall construct a CNF F(G) such that F(G) is satisfiable if G has a Hamiltonian path. F(G) has n^2 boolean variables x[i, j] , 1 ≤ i, j ≤ n. Here x[i, j] the ith position in the Hamiltonian path is occupied by node j.
+
+Clauses of our CNF F(G) are as follows:
+
+1) Each node j must appear in the path.
+2) No node j appears twice in the path.
+3) Every position i on the path must be occupied.
+4) No two nodes j and k occupy the same position in the path.
+5) Non-adjacent nodes i and j cannot be adjacent in the path.
